@@ -1,0 +1,262 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.header-mainm,.people-main,.sydney-main{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.logo{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.noise{
+    float: right;
+    font-size: 40px;
+    color: black;
+    padding-top: 6px;
+    background-color: white;
+}
+.main{
+    background-image: url(../Images/cvvcv-min.jpg);
+    background-position: 75% 50%;
+    height: 48rem;
+}
+.main-work{
+    color: white;
+    padding-top: 13rem;
+    padding-right: 30px;
+    padding-left: 30px
+}
+.main-head,.people-head{
+    font-size: 45px;
+}
+.main-para,.people-para{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    line-height: 1.4;
+    width: 100%;
+}
+.web-link{
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    font-weight: bold;
+    margin-top: 30px;
+    width: 70%;
+    letter-spacing: 1px;
+    height: 50px;
+}
+.right-arrow{
+    padding-left: 10px;
+}
+.people-main{
+    padding-top: 50px;
+    text-align: center;
+}
+.people-para{
+    margin: auto;
+    padding-bottom: 50px;
+}
+.people-img{
+    height: 150px;
+    margin-top: 40px;
+    /* width: 10%; */
+    border-radius: 150px;
+    border: solid rgb(226, 220, 149) 7px;
+}
+.people-icon1,.people-icon2,.people-icon3,.people-icon4{
+    text-align: center;
+   box-shadow: 0px 0px 8px black;
+   width: 90%;
+   margin: auto;
+   margin-left: 20px;
+}
+.people-icon1,.people-icon2,.people-icon3,.people-icon4{
+    margin-top: 20px;
+}
+
+.nat-head{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.icon{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nat-heads,.icon,.web-links{
+    text-align: center;
+    color: rgb(98, 98, 98);
+}
+.icon{
+    padding-left: 5px;
+}
+.web-links{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sydney,.gattouch{
+    background-color: black;
+}
+.sydney-main{
+    width: 100%;
+    padding-top: 25px;
+}
+.sydney-icons{
+    color: white;
+    text-align: center;
+}
+.sydney-icon{
+    padding-top: 40px;
+}
+.address{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.Pirrama{
+    font-size: 20px;
+    font-weight: 900;
+}
+.web-linkse{
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+}
+.gattouch-main{
+    padding-top: 50px;
+    width: 90%;
+    color: white;
+    /* margin: auto; */
+}
+.gattouch-head{
+    text-align: center;
+    font-size: 40px;
+}
+.gattouch-para{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.text,.textarea,.btnse{
+ margin-top: 20px;
+ padding: 20px;
+ width: 80%;
+ margin: auto;
+}
+.btnse{
+    /* justify-content: center; */
+    width: 100%;
+    background-color: rgb(228, 232, 174);
+    border: solid white 1px;
+}
+.map{
+    width: 100%;
+    /* padding-left: 50px; */
+}
+.maps{
+    width: 55vh;
+    height: 520px;
+}
+.footer{
+    color: white;
+    background-color: gray;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+    /* tab-view */
+@media (min-width: 768px){
+    .header-main,.main-work,.sydney-main,.people-main,.gattouch-main{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .btn{
+        width: 30%;
+    }
+}
+.gattouch-main{
+    padding-top: 50px;
+    width: 90%;
+    color: white;
+    margin: auto;   
+}
+.map{
+    width: 62vh;
+}
+
+    /* Desktop View */
+@media(min-width:992px){
+    .header,.people-main,.sydney-main,.gattouch-main{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.main-work{
+    padding-right: 105px;
+    padding-left: 105px;
+    
+}
+.main-head{
+    font-size: 70px;
+}
+.btn{
+    width: 20%;
+}
+.people-all{
+    display: flex;
+}
+.main-para,.people-para{
+    width: 50%;
+}
+.people-icon{
+    width: 100%;
+}
+.sydney-main{
+    height: 35rem;
+}
+.sydney-icons,.gattouch-main{
+    display: flex;
+}
+.sydney-icon{
+    width: 25%;
+    text-align: center;
+}
+.sydney{
+    background-color: black;
+    height: 50rem;
+}
+.gattouch-main{
+    width: 60%;
+    color: white;
+}
+.text,.textarea{
+    margin-top: 20px;
+    padding: 10px;
+    width: 80vh;
+   }
+   .map{
+    width: 100%;
+    padding-left: 50px;
+}
+.maps{
+    width: 100vh;
+    height: 520px;
+}
+}
+.gattouch-main{
+    margin: 0;
+}
